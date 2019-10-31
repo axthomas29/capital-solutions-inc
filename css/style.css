@@ -17,11 +17,13 @@ html {
 
 body {
   position: relative;
-  display: block;
+  min-height: 100%;
   background: #ffff;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color: #000000;
+  margin: 0;
+  padding: 0;
 }
 
 div {
@@ -29,6 +31,8 @@ div {
 }
 
 main {
+  margin: 0;
+  padding: 1px;
   text-align: center;
   background-image: url(../img/background.jpg);
   background-size: cover;
@@ -133,4 +137,55 @@ button {
   border-radius: 5px;
   border: none;
   margin-top: 1rem;
+}
+
+/* Checkmarks Section and Call-to-Action */
+.list-container {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.checkmark {
+  width: 10%;
+  display: inline-block;
+}
+
+.list-container p {
+  width: 80%;
+  line-height: 1.375rem;
+  font-size: 0.9907rem;
+  text-align: left;
+  word-wrap: break-word;
+  display: inline-block;
+  margin: 0.75rem;
+}
+
+.list-container h1 {
+  width: 95%;
+  margin: 0 auto;
+  padding: 2rem;
+  padding-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+/* Footer */
+footer {
+  background-color: rgb(45, 45, 45);
+  height: 6rem;
+  margin: 0;
+  padding: 1px;
+}
+
+.copyright {
+  color: #ffff;
+  text-align: center;
+  font-size: 0.8669rem;
+  word-wrap: break-word;
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
