@@ -147,33 +147,29 @@ button {
 
 /* Checkmarks Section and Call-to-Action */
 .list-container {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
+    text-align: center;
     margin-top: 3rem;
     margin-bottom: 3rem;
+
 }
 
 .checkmark {
-    width: 10%;
     display: inline-block;
 }
 
 .list-container p {
-    width: 80%;
-    line-height: 1.375rem;
     font-size: 0.9907rem;
-    text-align: left;
-    word-wrap: break-word;
     display: inline-block;
-    margin: 0.75rem;
 }
 
-.list-container h1 {
-    width: 95%;
+.list-container h4 {
+    width: 100%;
     margin: 0 auto;
-    padding: 2rem;
-    padding-bottom: 2rem;
-    font-size: 1.5rem;
+    padding: 2.5rem;
+    padding-bottom: 0;
+    font-size: 1rem;
 }
 
 /* Footer */
