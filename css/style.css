@@ -36,7 +36,7 @@ main {
   text-align: center;
   background-image: url(../img/background.jpg);
   background-size: cover;
-  background-position: 25% 5%;
+  background-position: 38%;
   box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.9);
 }
 
@@ -141,25 +141,29 @@ button {
 
 /* Checkmarks Section and Call-to-Action */
 .list-container {
-  width: 90%;
   margin: 0 auto;
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
 
+.checkmark-info {
+  display: inline-block;
+  padding: 0.5rem;
+}
+
 .checkmark {
   width: 10%;
-  display: inline-block;
 }
 
 .list-container p {
-  width: 80%;
+  width: 85%;
   line-height: 1.375rem;
   font-size: 0.9907rem;
   text-align: left;
   word-wrap: break-word;
   display: inline-block;
-  margin: 0.75rem;
+  padding: 0;
+  margin-left: 0.5rem;
 }
 
 .list-container h1 {
@@ -189,3 +193,26 @@ footer {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* Media Queries */
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+
+  main {
+    background-position: 45%;
+  }
+
+  .logo {
+    width: 70%;
+  }
+
+
+  .copyright {
+    font-size: 1rem;
+  }
+}
+
+
+/* Laptop */
+@media only screen and (min-width: 1024px) {}
