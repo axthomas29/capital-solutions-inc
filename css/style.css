@@ -133,7 +133,7 @@ button {
   font-size: 1.3003rem;
   font-weight: 700;
   height: 3.6875rem;
-  width: 18.75rem;
+  width: 100%;
   border-radius: 5px;
   border: none;
   margin-top: 1rem;
@@ -198,7 +198,6 @@ footer {
 
 /* Tablet */
 @media only screen and (min-width: 768px) {
-
   main {
     background-position: 45%;
   }
@@ -207,12 +206,11 @@ footer {
     width: 70%;
   }
 
-
   .copyright {
     font-size: 1rem;
   }
 }
 
-
 /* Laptop */
-@media only screen and (min-width: 1024px) {}
+@media only screen and (min-width: 1024px) {
+}
