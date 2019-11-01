@@ -212,4 +212,20 @@ footer {
 }
 
 /* Laptop */
-@media only screen and (min-width: 1024px) {}
+@media only screen and (min-width: 1024px) {
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .column {
+    width: 50%;
+  }
+
+  #form-container {
+    width: 35%;
+  }
+
+}

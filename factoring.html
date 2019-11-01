@@ -13,59 +13,70 @@
 
 <body>
   <main>
-    <img src="./img/logo.png" alt="logo" class="logo" />
-    <h1>Accounts Receivable Financing</h1>
-    <p>Let Capital Solutions be your Factoring Partner</p>
-    <h4>30 years experience! Fair & Fast!</h4>
-    <h2>Fill out this form or Call <u>626-695-2280</u> Now!</h2>
-    <h4 id="countdown">Start the countdown to Working Capital</h4>
-    <div class="box">
-      <div class="rectangle">Get Started Today!</div>
-      <form action="" method="">
-        <label for="fullName">
-          Full Name
-          <input type="text" name="Full Name" class="fullName" />
-        </label>
-        <label for="company">
-          Company
-          <input type="text" name="Company" class="lastName" />
-        </label>
-        <label for="email">
-          Email
-          <input type="email" name="Email" class="email" />
-        </label>
-        <label for="phonenumber">
-          Phone Number
-          <input type="number" name="Phone Number" class="number" />
-        </label>
-        <label for="amount">
-          Amount Needed
-          <input type="text" name="Amount Needed" class="amount" />
-        </label>
-        <button type="submit" class="submit">Get Started Today!</button>
-      </form>
-    </div>
-    <div class="list-container">
-      <div class="checkmark-info">
-        <img src="./img/checkmark.png" alt="checkmark" />
-        <p>Turn your outstanding commercial invoices into cash!</p>
+    <div class="grid">
+      <div class="column">
+        <img src="./img/logo.png" alt="logo" class="logo" />
+        <h1>Accounts Receivable Financing</h1>
+        <p>Let Capital Solutions be your Factoring Partner</p>
+        <h4>30 years experience! Fair & Fast!</h4>
+        <h2>Fill out this form or Call <u>626-695-2280</u> Now!</h2>
+        <h4 id="countdown">Start the countdown to Working Capital</h4>
       </div>
-      <div class="checkmark-info">
-        <img src="./img/checkmark.png" alt="checkmark" />
-        <p>Put your receivables to work! Set up a line of credit.</p>
+      <div class="column" id="form-container">
+        <div class="box">
+          <div class="rectangle">Get Started Today!</div>
+          <form action="" method="">
+            <label for="fullName">
+              Full Name
+              <input type="text" name="Full Name" class="fullName" />
+            </label>
+            <label for="company">
+              Company
+              <input type="text" name="Company" class="lastName" />
+            </label>
+            <label for="email">
+              Email
+              <input type="email" name="Email" class="email" />
+            </label>
+            <label for="phonenumber">
+              Phone Number
+              <input type="number" name="Phone Number" class="number" />
+            </label>
+            <label for="amount">
+              Amount Needed
+              <input type="text" name="Amount Needed" class="amount" />
+            </label>
+            <button type="submit" class="submit">Get Started Today!</button>
+          </form>
+        </div>
       </div>
-      <div class="checkmark-info">
-        <img src="./img/checkmark.png" alt="checkmark" />
-        <p>
-          Flexible working capital solutions for Accounts Reveivable and
-          Purchase Orders.
-        </p>
+      <div class="column">
+        <div class="list-container">
+          <div class="checkmark-info">
+            <img src="./img/checkmark.png" alt="checkmark" />
+            <p>Turn your outstanding commercial invoices into cash!</p>
+          </div>
+          <div class="checkmark-info">
+            <img src="./img/checkmark.png" alt="checkmark" />
+            <p>Put your receivables to work! Set up a line of credit.</p>
+          </div>
+          <div class="checkmark-info">
+            <img src="./img/checkmark.png" alt="checkmark" />
+            <p>
+              Flexible working capital solutions for Accounts Reveivable and
+              Purchase Orders.
+            </p>
+          </div>
+          <h1>Call 626-695-2280 or Fill out our form NOW!</h1>
+        </div>
       </div>
-      <h1>Call 626-695-2280 or Fill out our form NOW!</h1>
     </div>
   </main>
   <footer>
-    <p class="copyright">&copy; 2019 Capital Solutions, Inc.</p>
+    <p class="copyright">
+      <p class="copyright">&copy;<script>
+          document.write(new Date().getFullYear());
+        </script> Capital Solutions, Inc.</p>
   </footer>
 </body>
 
