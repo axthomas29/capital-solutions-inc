@@ -67,6 +67,7 @@ h1 {
     margin-top: 1.25rem;
     font-size: 2rem;
     line-height: 3rem;
+    text-align: left;
 }
 
 p {
@@ -83,7 +84,9 @@ h4 {
 }
 
 #countdown {
-    margin-bottom: 1.5rem;
+    text-align: left;
+    margin: 0;
+    margin-top: 1rem;
 }
 
 h2 {
@@ -110,6 +113,33 @@ h2 {
     text-align: left;
     line-height: 2rem;
     padding-top: 1em;
+}
+
+#financing-title {
+    margin-bottom: 0;
+}
+
+.subtitle {
+    text-align: left;
+    font-size: 1.1146rem;
+    padding: 0;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#call-action {
+    padding: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.line {
+    width: 347px;
+    height: 2px;
+    background-color: black;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    ;
 }
 
 /* Form */
@@ -205,6 +235,17 @@ button {
     padding-bottom: 0;
     font-size: 1.1146rem;
     margin: 0;
+}
+
+#factoring-list {
+    padding: 0;
+}
+
+#last-call {
+    font-size: 24px;
+    padding: 0;
+    margin-top: 1.5rem;
+    width: 53%;
 }
 
 /* Footer */
