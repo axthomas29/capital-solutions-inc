@@ -43,7 +43,6 @@ main {
 main .container {
     display: flex;
     max-width: 980px;
-    max-height: 803px;
     margin: auto;
     flex-direction: row;
 }
@@ -182,18 +181,23 @@ button {
     margin-bottom: 3rem;
     text-align: left;
     padding-left: 2rem;
-    ;
 }
 
 .list-container p {
     font-size: 0.9907rem;
     display: inline-block;
+    padding: 0.5rem;
+}
+
+#first-checkmark {
+    margin-top: 1rem;
 }
 
 .list-container p::before {
     content: url(../img/checkmark.png);
     margin-right: 10px;
-    vertical-align: -webkit-baseline-middle;
+    vertical-align: -50%;
+    ;
 }
 
 .list-container h4 {
