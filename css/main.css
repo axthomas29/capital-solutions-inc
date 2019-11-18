@@ -40,6 +40,18 @@ main {
     box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.9);
 }
 
+main .container {
+    display: flex;
+    max-width: 700px;
+    margin: auto;
+    flex-direction: row;
+}
+
+main .container .col1,
+main .container .col2 {
+    width: 50%;
+}
+
 /* Top Section */
 
 .logo {
@@ -162,6 +174,12 @@ button {
 .list-container p {
     font-size: 0.9907rem;
     display: inline-block;
+}
+
+.list-container p::before {
+    content: url(../img/checkmark.png);
+    margin-right: 10px;
+    vertical-align: -webkit-baseline-middle;
 }
 
 .list-container h4 {
