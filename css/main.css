@@ -304,10 +304,37 @@ footer {
 
     #call-action {
         text-align: center;
+        width: 66%;
+        margin: auto;
+    }
+
+    #countdown {
+        text-align: center;
+        font-size: 1.05rem;
     }
 
     .line {
         display: none;
+    }
+
+    .list-container {
+        margin-top: 2rem;
+    }
+
+    .list-container p {
+        font-size: 0.92rem;
+        margin-left: 1rem;
+    }
+
+    .list-container p::before {
+        margin-right: 15px;
+    }
+
+    #last-call {
+        margin: auto;
+        width: 78%;
+        text-align: center;
+        margin-top: 2rem;
     }
 
     .box {
