@@ -286,7 +286,9 @@ footer {
 
 /* Mobile */
 @media screen and (max-width: 400px) {
-    main {}
+    main {
+        background-position: 38%;
+    }
 
     main .container {
         max-width: 100%;
