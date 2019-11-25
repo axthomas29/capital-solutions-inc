@@ -64,8 +64,8 @@ main .container .col2 {
 
 h1 {
     font-weight: 400;
-    margin-bottom: 1.25rem;
     margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
     font-size: 2rem;
     line-height: 3rem;
     text-align: left;
@@ -143,6 +143,10 @@ h2 {
 }
 
 /* Form */
+#mobile-form {
+    display: none;
+}
+
 .box {
     border: 0.1875rem solid #d5c900;
     margin: 0 auto;
@@ -282,6 +286,8 @@ footer {
 
 /* Mobile */
 @media screen and (max-width: 400px) {
+    main {}
+
     main .container {
         max-width: 100%;
         flex-direction: column;
@@ -328,6 +334,7 @@ footer {
     #tagline {
         margin: 0;
         margin-top: 0.75rem;
+        margin-bottom: 1rem;
         text-align: center;
         width: 100%;
         line-height: 1.25rem;
@@ -343,6 +350,7 @@ footer {
     #countdown {
         text-align: center;
         font-size: 1.05rem;
+        margin-bottom: 1rem;
     }
 
     .line {
@@ -383,6 +391,14 @@ footer {
 
     label {
         font-size: 1.13rem;
+    }
+
+    #desktop-form {
+        display: none;
+    }
+
+    #mobile-form {
+        display: inline-block;
     }
 }
 
