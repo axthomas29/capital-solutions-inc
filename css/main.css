@@ -371,7 +371,7 @@ footer {
     }
 
     .lending-checks {
-        margin-left: 60px;
+        margin-left: 3rem;
     }
 
     .list-container p {
@@ -408,4 +408,58 @@ footer {
     }
 }
 
-@media screen and (max-width: 767px) {}
+@media screen and (max-width: 768px) {
+    main .container {
+        padding: 0;
+        margin: 2rem;
+        margin-top: 5rem;
+    }
+
+    .logo {
+        margin-left: 8rem;
+        margin-right: 8rem;
+        width: 120%;
+    }
+
+    .box {
+        width: 95%;
+        margin: 0;
+        margin-left: 1rem;
+        margin-top: 5rem;
+    }
+
+    h1,
+    h2,
+    #apply,
+    #tagline,
+    .subtitle,
+    #countdown {
+        text-align: center;
+    }
+
+    #tagline {
+        margin: 0;
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+    .list-container h4 {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .lending-checks {
+        margin-left: 4rem;
+    }
+
+    #call-action {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    #last-call {
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+}
