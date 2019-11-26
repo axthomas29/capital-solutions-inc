@@ -408,7 +408,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 601px) and (max-width: 768px) {
     main .container {
         padding: 0;
         margin: 2rem;
@@ -440,6 +440,10 @@ footer {
     #tagline {
         margin: 0;
         margin-top: 1rem;
+        width: 100%;
+    }
+
+    .line {
         width: 100%;
     }
 
