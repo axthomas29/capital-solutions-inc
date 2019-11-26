@@ -469,6 +469,29 @@ footer {
 }
 
 @media screen and (min-width: 769px) and (max-width: 1200px) {
+    main .container {
+        max-width: 900px;
+        margin: 0 auto;
+        margin-top: 5rem;
+        margin-bottom: 4rem;
+        padding: 0;
+    }
+
+    .box {
+        height: 38.25rem;
+        width: 23.25rem;
+        margin-left: 5rem;
+    }
+
+    form {
+        padding-bottom: 3.9em;
+    }
+
+    form label {
+        margin: 0;
+        padding: 0;
+    }
+
     .logo {
         width: 26rem;
     }
