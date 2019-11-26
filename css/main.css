@@ -467,3 +467,31 @@ footer {
         width: 100%;
     }
 }
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .logo {
+        width: 26rem;
+    }
+
+    #financing-title {
+        font-size: 1.8rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+        margin-top: 0.75rem;
+    }
+
+    #countdown {
+        font-size: 1rem;
+    }
+
+    .checkmark-info p {
+        font-size: 0.85rem;
+    }
+
+    #last-call {
+        width: 57%;
+        margin-top: 0.5rem;
+    }
+}
