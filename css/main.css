@@ -469,6 +469,10 @@ footer {
 }
 
 @media screen and (min-width: 769px) and (max-width: 1200px) {
+    main {
+        background-position: 63%;
+    }
+
     main .container {
         max-width: 900px;
         margin: 0 auto;
@@ -494,6 +498,10 @@ footer {
 
     .logo {
         width: 26rem;
+    }
+
+    h1 {
+        margin-bottom: 0;
     }
 
     #financing-title {
